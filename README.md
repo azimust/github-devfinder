@@ -1,1 +1,1 @@
-# React - TS
+# Github User Finder
