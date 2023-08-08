@@ -3,9 +3,9 @@ export type LocaleGithubUser = {
     "id": number,
     "avatar": string,
     "name": string,
-    "company": string,
+    "company": null,
     "blog": string,
-    "bio": string
+    "bio": null,
     "location": string,
     "repos": number,
     "followers": number,
@@ -18,9 +18,9 @@ export type GithubUser = {
     "id": number,
     "avatar_url": string,
     "name": string,
-    "company": string,
+    "company": null,
     "blog": string,
-    "bio": string
+    "bio": null,
     "location": string,
     "public_repos": number,
     "followers": number,
