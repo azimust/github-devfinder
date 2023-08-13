@@ -17,7 +17,7 @@ export const Search = ({ hasError, onSubmit }: SearchProps) => {
     const text = event.currentTarget.username.value;
 
     if (text) {
-      onSubmit(text)
+      onSubmit(text.trim())
       event.currentTarget.reset();
     }
   }
